@@ -1,0 +1,18 @@
+<model-viewer bounds="tight" src="globe.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.png" shadow-intensity="1" auto-rotate camera-orbit="125.2deg 66.74deg auto">
+    <button class="Hotspot" slot="hotspot-1" data-position="2.6115812812842423m 2.9806242746882474m 3.2026176257293955m" data-normal="0.435543620077838m 0.5269491142914072m 0.7298125690593397m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Location 1</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="4.498320840101531m 2.6572729914904705m 0.7032280700669804m" data-normal="0.8353781255000953m 0.3783117322024135m 0.3987776582432326m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Location 2</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="3.0334946212246514m -2.177096687189705m -3.441733534853518m" data-normal="0.6016655488668644m -0.45869238381151256m -0.6539112052412368m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Location 3</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
